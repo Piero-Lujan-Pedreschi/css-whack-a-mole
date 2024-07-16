@@ -1,8 +1,11 @@
+body {
+  zoom: 0.5;
+}
+
 .wgs {
   height: auto;
   position: relative;
   width: auto;
-  display: inline-block;
   overflow: hidden;
 }
 
@@ -10,13 +13,14 @@
   height: auto;
   position: absolute;
   width: 376px;
-  margin: 0 155px 0 109px;
+  margin-right: 155px;
+  margin-left: 109px;
   transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
   height: 220px;
-  width: auto;
+  width: 640px;
   margin-top: 262px;
   margin-bottom: 0;
 }
@@ -29,9 +33,14 @@
   margin-top: 486px;
 }
 
+.pf {
+  display: grid;
+  grid-template: 50% 50%/25% 25% 25% 25%;
+}
+
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -40,17 +49,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+.sb__game-over--hidden {
   display: none;
-} */
+}
