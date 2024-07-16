@@ -58,4 +58,15 @@ window.addEventListener('DOMContentLoaded', () => {
       // event.target.classList.add('wgs__mole-head--whacked');
     });
   }
+
+  window.addEventListener('DOMContentLoaded', () => {
+
+    setInterval(() => {
+      const moleHeads = document.querySelectorAll('.wgs__mole-head');
+      for (let moleHead of moleHeads) {
+        moleHead.classList.toggle('wgs__mole-head--hidden');
+      }
+    }, 1000);
+
+  });
 });

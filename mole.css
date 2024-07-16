@@ -1,5 +1,33 @@
-/* Your code here */
+.wgs {
+  height: auto;
+  position: relative;
+  width: auto;
+  display: inline-block;
+  overflow: hidden;
+}
 
+.wgs__mole-head {
+  height: auto;
+  position: absolute;
+  width: 376px;
+  margin: 0 155px 0 109px;
+  transition: margin-top 0.25s;
+}
+
+.wgs__dirt-pile {
+  height: 220px;
+  width: auto;
+  margin-top: 262px;
+  margin-bottom: 0;
+}
+
+.wgs__mole-head--hidden {
+  height: auto;
+  position: absolute;
+  width: 376px;
+  margin: 0 155px 0 109px;
+  margin-top: 486px;
+}
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
